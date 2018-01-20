@@ -1,0 +1,512 @@
+mydata <- mydata[-1,]
+View(mydata)
+View(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(mydata)
+class(expData[,1])
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(mydata)
+class(mydata[,1])
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(mydata)
+mydata <- as.numeric(mydata)
+class(mydata[,1])
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.numeric(mydata)
+mydata <- as.matrix(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+class(mydata[,1])
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+print(mean(mydata[1,]))
+View(mydata)
+View(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+print(mean(mydata[1,]))
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for j in 1:ncol(mydata){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+View(mydata)
+View(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+plot(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+plot(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplotplot(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+boxplot(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+boxplot(mydata, outline=FALSE)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+covmatrix <- cov(mydata)
+View(covmatrix)
+View(covmatrix)
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+covmatrix <- eigen(cov(mydata))
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(mydata))
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata))
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata))
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.2
+mydata = read.table("Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+print(eigen$values[1:5])
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_trainn")
+# A1.3
+mydata <- mydata[-1,]
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+print(eigen$values[1:5])
+print(eigen$values[1:5])
+print(eigen$values[1:5])
+print(sum(eigen$values[1:5]))
+print(eigen$values[1:5])
+print(sum(eigen$values[]))
+print(eigen$values[1:5])
+print(sum(eigen$values))
+all <- sum(eigen$values)
+print(eigen$values[1]/all)
+2009.935/130
+all <- sum(eigen$values)
+print(eigen$values[1])
+all <- sum(eigen$values)
+print((eigen$values[1])/all)
+print(eigen$values[1:5])
+all <- sum(eigen$values)
+print((eigen$values[1])/all)
+print(eigen$values[1:5])
+all <- sum(eigen$values)
+print(all)
+print((eigen$values[1])/all)
+print((eigen$values[1])/all)
+2009/130
+print(eigen$values[1:5])
+all <- sum(eigen$values)
+print(all)
+print(eigen$values[1])
+rowmean <-mean(mydata[i,])
+print(eigen$values[1:5])
+all <- sum(eigen$values)
+print(all)
+print(eigen$values[1])
+print((eigen$values[1])/all)
+2009/130
+# A1.5
+print(eigen$values[1:5])
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((eigen$values[1:5])/all) # what first five components explain
+print((eigen$values[1])/all) # what first component explains
+print((sum(eigen$values[1:5])/all) # what first five components explain
+# A1.5
+print(eigen$values[1:5])
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(eigen$values[1:5])/all) # what first five components explain
+# A1.5
+ffc <- eigen$values[1:5]
+print(ffc)
+all <- sum(eigen$values)
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+print(eigen$vectors)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+print(eigen$vectors)
+print(eigen$vectors)
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+print(eigen$vectors[1:2])
+a <- c(1,3,4)
+sum(a)
+print(eigen$vectors[1:2])
+print(eigen$vectors[1])
+plot(eigen$vectors[1:2])
+0.25*0.5*1000
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all) # what first five components explain
+print((sum(ffc)/all))
+print((sum(ffc)/all))
+ffc <- c(eigen$values[1:5])
+# A1.2
+mydata = read.table("http://www.molgen.mpg.de/Algorithmische-Bioinformatik-WS1415/u11/Golub_train")
+# A1.3
+mydata <- mydata[-1,]
+mydata <- as.matrix(sapply(mydata, as.numeric))
+mydata <- log(mydata)
+for (i in 2:nrow(mydata)){
+rowmean <-mean(mydata[i,])
+for (j in 1:ncol(mydata)){
+mydata[i,j] <- mydata[i,j] - rowmean
+}
+}
+boxplot(mydata, outline=FALSE)
+# A1.4
+eigen <- eigen(cov(t(mydata)))
+# A1.5
+ffc <- c(eigen$values[1:5])
+print(ffc)
+all <- sum(eigen$values)
+print((eigen$values[1])/all) # what first component explains
+print((sum(ffc)/all)) # what first five components explain
